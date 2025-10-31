@@ -29,7 +29,7 @@ export default function Holdings() {
     labels,
     datasets: [
       {
-        label: 'Stock Name',
+        label: 'Stock Price',
         data: allHoldings.map((stock) => stock.price),
         backgroundColor: 'rgba(75, 192, 192, 0.5)',
       },
